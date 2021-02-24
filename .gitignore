@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+yarn-error.log
+lib
+.vscode/settings.json
