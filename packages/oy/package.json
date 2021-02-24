@@ -1,0 +1,11 @@
+{
+  "name": "oy",
+  "version": "1.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@oy/text": "^0.0.0",
+    "@oy/utils": "^0.0.0",
+    "@oy/config-provider": "^0.0.0"
+  }
+}
