@@ -1,0 +1,12 @@
+{
+  "name": "@oy/config-provider",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^2.0.0-beta.3"
+  }
+}

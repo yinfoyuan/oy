@@ -1,0 +1,12 @@
+@import "./config.scss";
+/* 
+  BEM
+  _______________________________________
+*/
+ @mixin b($block) {
+  $B: $namespace+'-'+$block !global;
+
+  .#{$B} {
+    @content;
+  }
+}
