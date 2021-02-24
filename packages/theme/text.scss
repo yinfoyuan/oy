@@ -1,0 +1,17 @@
+@import "./common/var.scss";
+@import "./common/config.scss";
+@import "./common/mixins.scss";
+
+@include b(text) {
+  @each $type, $primaryColor in $typeMap {
+    &.#{$namespace}-text--#{$type} {
+      color: $primaryColor;
+      &:hover {
+        color: mix($primaryColor, $--color-white, 80%)
+      }
+      &:after {
+        border-color: $primaryColor
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+/*
+  Color
+  _________________________________________________
+*/
+
+$--color-primary: #409EFF !default;
+
+$--color-white: #FFFFFF !default;
+
+$--color-black: #000000 !default;
+
+$--color-success: #67C23A !default;
+
+$--color-warning: #E6A23C !default;
+
+$--color-danger: #F56C6C !default;
+
+$--color-info: #909399 !default;
+
+/*
+  Type
+*/
+$typeMap: (
+  primary: $--color-primary, 
+  danger: $--color-danger, 
+  success: $--color-success, 
+  warning: $--color-warning, 
+  info: $--color-info
+);
