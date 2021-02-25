@@ -1,2 +1,2 @@
 # oy
-🤣 Some accumulation from work
+🤣 Use Vue for some accumulation at work
